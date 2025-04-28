@@ -8,7 +8,7 @@ from .interface import Model, ModelProvider
 from .openai_chatcompletions import OpenAIChatCompletionsModel
 from .openai_responses import OpenAIResponsesModel
 
-DEFAULT_MODEL: str = "gpt-4o"
+DEFAULT_MODEL: str = "gpt-4.1-2025-04-14"
 
 
 _http_client: httpx.AsyncClient | None = None
